@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Андрей Краснов](https://up.htmlacademy.ru/adaptive/18/user/176615).
-* Наставник: `Неизвестно`.
+* Наставник: [Михаил Поданев](https://up.htmlacademy.ru/adaptive/18/user/63947).
 
 ---
 
