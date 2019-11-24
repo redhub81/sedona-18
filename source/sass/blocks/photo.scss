@@ -1,0 +1,35 @@
+.photo {
+  margin: 0;
+  padding: 22px 20px;
+  text-align: left;
+  font-size: $text-font-size-small;
+  line-height: $text-line-height-medium-low;
+}
+
+.photo__figure {
+  margin: 0;
+  padding: 0;
+}
+
+.photo__link {
+  display: block;
+}
+
+.photo__image {
+  vertical-align: top;
+}
+
+.photo__caption {
+  margin: 0;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.photo__option {
+  margin: 0;
+  text-transform: none;
+}
+
+.photo__like {
+  margin-top: 5px;
+}

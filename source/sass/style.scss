@@ -1,0 +1,59 @@
+/* helpers */
+@import "variables.scss";
+@import "visually-hidden.scss";
+
+/* common */
+@import "common.scss";
+@import "common-mixins.scss";
+
+/* buttons */
+@import "blocks/button.scss";
+
+/* like */
+@import "blocks/like.scss";
+
+/* video player */
+@import "blocks/video-player.scss";
+
+/* page */
+@import "blocks/page.scss";
+
+/* header */
+@import "blocks/main-header.scss";
+
+/* navigation */
+@import "blocks/main-navigation.scss";
+
+/* main-content */
+@import "blocks/main-content.scss";
+
+/* footer */
+@import "blocks/main-footer.scss";
+
+/* hashtags */
+@import "blocks/hashtags.scss";
+
+/* social */
+@import "blocks/social.scss";
+
+/* copyright */
+@import "blocks/copyright.scss";
+
+
+/* intro */
+@import "blocks/intro.scss";
+
+/* advantages */
+@import "blocks/advantages.scss";
+@import "blocks/advantage.scss";
+@import "blocks/advantage-prove.scss";
+
+/* search */
+@import "blocks/search.scss";
+
+/* photos */
+@import "blocks/photos.scss";
+@import "blocks/photo.scss";
+
+/* videos */
+@import "blocks/videos.scss";

@@ -1,0 +1,21 @@
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0;
+  margin-top: 7px;
+  padding: 23px 0;
+  font-size: $text-font-size-small;
+  line-height: $text-line-height-medium;
+  color: $color-black-two;
+}
+
+.copyright__title {
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.copyright__logo {
+  margin: 0;
+  margin-left: 11px;
+}

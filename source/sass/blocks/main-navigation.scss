@@ -1,0 +1,78 @@
+.main-navigation__control {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  min-height: 56px;
+}
+
+.main-navigation__logo {
+  position: absolute;
+  width: 102px;
+  height: 83px;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
+  z-index: 1;
+}
+
+.main-navigation__menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-navigation__button {
+  align-self: center;
+}
+
+.main-navigation__button--close {
+  align-self: flex-end;
+}
+
+.main-navigation__list {
+  @include reset-list;
+
+  position: relative;
+  font-size: $text-font-size-normal;
+  font-weight: bold;
+  line-height: $text-line-height-normal;
+  color: $color-white;
+}
+
+.main-navigation__list::after {
+  content: "";
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 0px;
+  left: 0;
+  height: 7px;
+  width: 320px;
+  background-color: $color-black-20;
+}
+
+.main-navigation__list-item {
+  text-align: center;
+  background-color: $color-blue-light-grey;
+  box-shadow:
+    inset 0px -1px 0 0 $color-black-20,
+    inset 0px 1px 0 0 $color-white-20;
+  background-color: $color-blue-light-grey;
+}
+
+.main-navigation-list-item:first-child {
+  box-shadow:
+    inset 0px -1px 0 0 $color-black-20,
+}
+
+.main-navigation-list-item:last-child {
+  box-shadow:
+  inset 0px 1px 0 0 $color-white-20;
+}
+
+.main-navigation__link {
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  color: inherit;
+}

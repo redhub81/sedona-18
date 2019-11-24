@@ -1,0 +1,32 @@
+.search {
+  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.search__lead {
+  font-size: $text-font-size-large;
+  line-height: $text-line-height-medium;
+}
+
+.search__guide {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  line-height: $text-line-height-medium-low;
+}
+
+.search__button {
+  display: block;
+  margin: 0 20px;
+  padding: 0;
+  padding-top: 17px;
+  padding-bottom: 19px;
+  font-size: $text-font-size-large;
+  line-height: $text-line-height-medium;
+}
+
+.search__habitation-wrapper {
+  margin: 0;
+  margin-top: 50px;
+}
