@@ -14,7 +14,7 @@
 
 .photos__lead {
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   padding: 0;
   padding-bottom: 40px;
   font-size: $text-font-size-small;
@@ -34,7 +34,7 @@
   position: absolute;
   margin: 0;
   padding: 0;
-  top: 0px;
+  top: 0;
   left: 0;
   height: 1px;
   width: 320px;
@@ -46,7 +46,7 @@
   position: absolute;
   margin: 0;
   padding: 0;
-  bottom: 0px;
+  bottom: 0;
   left: 0;
   height: 1px;
   width: 320px;
