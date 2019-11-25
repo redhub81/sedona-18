@@ -1,0 +1,17 @@
+.button {
+  display: inline-block;
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  color: $color-black;
+  background-color: $color-gray-normal;
+  cursor: pointer;
+}
+
+.button--blue {
+  color: $color-white;
+  background-color: $color-blue-light-grey;
+}

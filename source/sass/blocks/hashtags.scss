@@ -1,0 +1,12 @@
+.hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  margin: 0;
+  padding: 30px 5px;
+  font-size: $text-font-size-large;
+  font-weight: bold;
+  line-height: $text-line-height-medium;
+}

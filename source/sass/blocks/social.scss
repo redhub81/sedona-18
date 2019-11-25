@@ -1,0 +1,22 @@
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 320px;
+  padding: 10px 5px;
+}
+
+.social__list {
+  @include reset-list;
+}
+
+.social__list-item {
+  margin: 3px 0;
+  margin-left: 6px;
+}
+
+.social__button {
+  padding: 5px;
+}

@@ -1,0 +1,17 @@
+.videos {
+  margin: 0;
+  padding: 35px 0;
+}
+
+.videos__lead {
+  font-weight: bold;
+  font-size: $text-font-size-normal;
+  line-height: $text-line-height-medium;
+}
+
+.videos__guide {
+  margin: 35px 0;
+  margin-top: 30px;
+  font-size: $text-font-size-small;
+  line-height: $text-line-height-medium-low;
+}
